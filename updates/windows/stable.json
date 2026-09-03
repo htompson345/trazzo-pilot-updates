@@ -1,0 +1,11 @@
+{
+  "version": "0.1.10",
+  "mandatory": false,
+  "url": "https://trazzo-updates.lentinitechnologies.com/installers/1e91d626beb0fca5b41fc557dac58b30d7ca0f926d260c3ee048e645a5ed7ec1/Trazzo_ERP_Inmobiliario_0.1.10_Setup.exe",
+  "sha256": "1e91d626beb0fca5b41fc557dac58b30d7ca0f926d260c3ee048e645a5ed7ec1",
+  "notes": "Trazzo 0.1.10 PILOT CMC",
+  "minSupportedVersion": "0.1.9",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/81fd5627-a6d7-4246-8003-1af1fb28240f/patch-manifest-v2.json",
+  "patchManifestSha256": "93254984d8f99e520bf5536e5511b2df18da7f25dc55b0e4fe66874df5453c58",
+  "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
+}
