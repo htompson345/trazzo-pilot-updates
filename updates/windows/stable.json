@@ -1,11 +1,11 @@
 {
-  "version": "0.0.1",
+  "version": "0.1.32",
   "mandatory": false,
-  "url": "",
-  "sha256": "",
-  "notes": "Legacy V1 update channel retired. Updates are delivered through Trazzo Updater V2.",
-  "minSupportedVersion": "0.0.1",
-  "patchManifestUrl": "",
-  "patchManifestSha256": "",
-  "patchObjectBaseUrl": ""
+  "url": "https://trazzo-updates.lentinitechnologies.com/installers/c482d03a18ff81b1decc83ae59a5bc4a9237dc1a3845a1ab98c48ed46c342578/Trazzo_ERP_Inmobiliario_0.1.32_Setup.exe",
+  "sha256": "c482d03a18ff81b1decc83ae59a5bc4a9237dc1a3845a1ab98c48ed46c342578",
+  "notes": "Trazzo 0.1.32 — UI/UX 1.0 + Reportes/Caja V2 + window-policy (pilot)",
+  "minSupportedVersion": "0.1.9",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/11756976-4a6c-463c-85b3-219f774b9f85/patch-manifest-v2.json",
+  "patchManifestSha256": "7eb6572903898b3b6d3342194b584681d21ad22a1434c0f25c43ffe6c9a65897",
+  "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }
