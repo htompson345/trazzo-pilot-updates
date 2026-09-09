@@ -1,11 +1,11 @@
 {
-  "version": "0.1.32",
+  "version": "0.1.33",
   "mandatory": false,
   "url": "https://trazzo-updates.lentinitechnologies.com/installers/c482d03a18ff81b1decc83ae59a5bc4a9237dc1a3845a1ab98c48ed46c342578/Trazzo_ERP_Inmobiliario_0.1.32_Setup.exe",
   "sha256": "c482d03a18ff81b1decc83ae59a5bc4a9237dc1a3845a1ab98c48ed46c342578",
-  "notes": "Trazzo 0.1.32 — UI/UX 1.0 + Reportes/Caja V2 + window-policy (pilot)",
+  "notes": "Trazzo 0.1.33 — API de listas paginada (envelope) + endurecimiento Astra A01/A03-A16 (pilot)",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/11756976-4a6c-463c-85b3-219f774b9f85/patch-manifest-v2.json",
-  "patchManifestSha256": "7eb6572903898b3b6d3342194b584681d21ad22a1434c0f25c43ffe6c9a65897",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/b1e19203-5d19-46eb-9f36-16422d593393/patch-manifest-v2.json",
+  "patchManifestSha256": "ce95695fc0d5aef00a6e99b2bcab782fec343d2496b521dbd65568da620c22de",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }
