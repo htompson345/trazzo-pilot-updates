@@ -1,11 +1,11 @@
 {
-  "version": "0.1.33",
+  "version": "0.1.34",
   "mandatory": false,
   "url": "https://trazzo-updates.lentinitechnologies.com/installers/c482d03a18ff81b1decc83ae59a5bc4a9237dc1a3845a1ab98c48ed46c342578/Trazzo_ERP_Inmobiliario_0.1.32_Setup.exe",
   "sha256": "c482d03a18ff81b1decc83ae59a5bc4a9237dc1a3845a1ab98c48ed46c342578",
-  "notes": "Trazzo 0.1.33 — API de listas paginada (envelope) + endurecimiento Astra A01/A03-A16 (pilot)",
+  "notes": "Trazzo 0.1.34 — API de listas paginada + anulaciones: resolver contrato, reverso de separación cobrada, motivo en reverso manual (pilot)",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/12edb46c-2885-4ee1-8c5f-97878acb4f42/patch-manifest-v2.json",
-  "patchManifestSha256": "2c3c7d3b3bb6b51d49af648eb7dd5655778f6508a0f69fbe155b592638a9c66b",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/3712dc84-374a-4027-998d-bae4550f1323/patch-manifest-v2.json",
+  "patchManifestSha256": "a373986f951120b8af4a8ca1fa91b582cf9b3c9ae30d0cb38629c4fb206411a2",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }
