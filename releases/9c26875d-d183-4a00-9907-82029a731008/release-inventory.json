@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "9c26875d-d183-4a00-9907-82029a731008",
+  "version": "0.1.36",
+  "platform": "windows",
+  "architecture": "x64",
+  "createdAt": "2026-09-15T15:32:22.694353Z",
+  "files": [
+    {
+      "path": "Trazzo.exe",
+      "size": 94208,
+      "sha256": "1b662af7870e0552c1b2729c28552a32c19f6033525d1a89497cc86559d74eaf",
+      "objectId": "sha256:1b662af7870e0552c1b2729c28552a32c19f6033525d1a89497cc86559d74eaf",
+      "role": "executable"
+    },
+    {
+      "path": "data/app.so",
+      "size": 8848304,
+      "sha256": "76dd15f017b2fb1bc1969c0b782563b64741013fc9a1f00ed3d5304fc6b3521d",
+      "objectId": "sha256:76dd15f017b2fb1bc1969c0b782563b64741013fc9a1f00ed3d5304fc6b3521d",
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/AssetManifest.bin",
+      "size": 505,
+      "sha256": "778e65b0479e702da1493c9ffbb773effd0cc82747d1a51b610499ed636605f6",
+      "objectId": "sha256:778e65b0479e702da1493c9ffbb773effd0cc82747d1a51b610499ed636605f6",
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/FontManifest.json",
+      "size": 208,
+      "sha256": "cd7e03645bc44b2dd47b7cb626f51c4ecbf55a197ab77241628b47ac165fbe21",
+      "objectId": "sha256:cd7e03645bc44b2dd47b7cb626f51c4ecbf55a197ab77241628b47ac165fbe21",
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/NOTICES.Z",
+      "size": 115458,
+      "sha256": "aeba962db7a55671774b7475a8b23f888c6e85a1880ea4b786a0b14d8358b4d3",
+      "objectId": "sha256:aeba962db7a55671774b7475a8b23f888c6e85a1880ea4b786a0b14d8358b4d3",
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/NativeAssetsManifest.json",
+      "size": 45,
+      "sha256": "9548a31e4a048135c1d94f919328bfb62ae2c7bb3cab96557c7941daa97776cb",
+      "objectId": "sha256:9548a31e4a048135c1d94f919328bfb62ae2c7bb3cab96557c7941daa97776cb",
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/assets/branding/trazzo-login-background.png",
+      "size": 1746036,
+      "sha256": "b66aba80623f532b234e20e00d53bd40c041422ccfe7f3476f3914f4ee50f67d",
+      "objectId": "sha256:b66aba80623f532b234e20e00d53bd40c041422ccfe7f3476f3914f4ee50f67d",
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/branding/trazzo-logo-horizontal-dark.png",
+      "size": 165852,
+      "sha256": "860f468036d5fb8008e7efd80368693d1d122e3a56bd6666ecfac5bfb83964a1",
+      "objectId": "sha256:860f468036d5fb8008e7efd80368693d1d122e3a56bd6666ecfac5bfb83964a1",
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/branding/trazzo-symbol-on-dark.png",
+      "size": 54792,
+      "sha256": "1002d54c638c0adc8ac3e2a3db0dcc1fc32bc106731e9e101c296e64253e7d93",
+      "objectId": "sha256:1002d54c638c0adc8ac3e2a3db0dcc1fc32bc106731e9e101c296e64253e7d93",
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/branding/trazzo-symbol.png",
+      "size": 78483,
+      "sha256": "5eb3a6f1c1ac01550fc805bd763c9f121dfd763ddf1a617f069ff6de1ff2f30a",
+      "objectId": "sha256:5eb3a6f1c1ac01550fc805bd763c9f121dfd763ddf1a617f069ff6de1ff2f30a",
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/fonts/MaterialIcons-Regular.otf",
+      "size": 1645184,
+      "sha256": "d9865b671a09d683d13a863089d8825e0f61a37696ce5d7d448bc8023aa62453",
+      "objectId": "sha256:d9865b671a09d683d13a863089d8825e0f61a37696ce5d7d448bc8023aa62453",
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf",
+      "size": 257628,
+      "sha256": "67c44fe9183b002e79dde7f6977e2988661c9a3e4a3c5fce968787efdbed823c",
+      "objectId": "sha256:67c44fe9183b002e79dde7f6977e2988661c9a3e4a3c5fce968787efdbed823c",
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/shaders/ink_sparkle.frag",
+      "size": 21328,
+      "sha256": "0ddb6dd1d060d863b453c26aaae72d539d5dbc5443e086ef618280da73d71380",
+      "objectId": "sha256:0ddb6dd1d060d863b453c26aaae72d539d5dbc5443e086ef618280da73d71380",
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/shaders/stretch_effect.frag",
+      "size": 17368,
+      "sha256": "0ed3145e5e380355d92f9ccc66dba1c00d1b5001b1efa0dbeb6398dd56910486",
+      "objectId": "sha256:0ed3145e5e380355d92f9ccc66dba1c00d1b5001b1efa0dbeb6398dd56910486",
+      "role": "asset"
+    },
+    {
+      "path": "data/icudtl.dat",
+      "size": 862304,
+      "sha256": "998367809a821d595928089c197b3f7959f0420f81f79d4d0daee53378492ed5",
+      "objectId": "sha256:998367809a821d595928089c197b3f7959f0420f81f79d4d0daee53378492ed5",
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "file_selector_windows_plugin.dll",
+      "size": 110080,
+      "sha256": "cf1644769ad1ed0a60b04ab15f2d32a57a817ff333403fb956942eeb11b4cb9b",
+      "objectId": "sha256:cf1644769ad1ed0a60b04ab15f2d32a57a817ff333403fb956942eeb11b4cb9b",
+      "role": "library"
+    },
+    {
+      "path": "flutter_windows.dll",
+      "size": 20803584,
+      "sha256": "92e7aa320afe026e90780e4049dc6f6a480696400a269c179b1cca0ef751d175",
+      "objectId": "sha256:92e7aa320afe026e90780e4049dc6f6a480696400a269c179b1cca0ef751d175",
+      "role": "library"
+    },
+    {
+      "path": "native_assets.json",
+      "size": 45,
+      "sha256": "9548a31e4a048135c1d94f919328bfb62ae2c7bb3cab96557c7941daa97776cb",
+      "objectId": "sha256:9548a31e4a048135c1d94f919328bfb62ae2c7bb3cab96557c7941daa97776cb",
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "url_launcher_windows_plugin.dll",
+      "size": 98304,
+      "sha256": "4e4c44ab62f34a696e672e466e424556d07a701f0348d68367244ab3168d755e",
+      "objectId": "sha256:4e4c44ab62f34a696e672e466e424556d07a701f0348d68367244ab3168d755e",
+      "role": "library"
+    }
+  ]
+}
