@@ -1,11 +1,11 @@
 {
-  "version": "0.1.35",
+  "version": "0.1.36",
   "mandatory": false,
   "url": "https://trazzo-updates.lentinitechnologies.com/installers/c482d03a18ff81b1decc83ae59a5bc4a9237dc1a3845a1ab98c48ed46c342578/Trazzo_ERP_Inmobiliario_0.1.32_Setup.exe",
   "sha256": "c482d03a18ff81b1decc83ae59a5bc4a9237dc1a3845a1ab98c48ed46c342578",
-  "notes": "Trazzo 0.1.35 — Ventas por vendedor y exportación Excel, exportación empresarial XLSX, importación XLSX definitiva, anulación de pagos desde Pagos, detalle de contrato sin pagos:leer (pilot)",
+  "notes": "Trazzo 0.1.36 — Importación/exportación XLSX canónica, UX de anulaciones y guía contextual en Caja (pilot)",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/353c77ab-d98f-4669-b4d8-b4aa74db8b04/patch-manifest-v2.json",
-  "patchManifestSha256": "3a5ef522d70252566e788d157cc1a10ce51843d4f6e523b14da1e2669770a452",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/9c26875d-d183-4a00-9907-82029a731008/patch-manifest-v2.json",
+  "patchManifestSha256": "eaa136ef7a58bbbf203868f8fb1d7f7fad919c823e418f01010734bdb990e402",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }

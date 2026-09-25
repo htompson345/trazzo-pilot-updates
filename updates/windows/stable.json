@@ -1,11 +1,11 @@
 {
-  "version": "0.1.36",
+  "version": "0.1.37",
   "mandatory": false,
-  "url": "https://trazzo-updates.lentinitechnologies.com/installers/c482d03a18ff81b1decc83ae59a5bc4a9237dc1a3845a1ab98c48ed46c342578/Trazzo_ERP_Inmobiliario_0.1.32_Setup.exe",
-  "sha256": "c482d03a18ff81b1decc83ae59a5bc4a9237dc1a3845a1ab98c48ed46c342578",
-  "notes": "Trazzo 0.1.36 — Importación/exportación XLSX canónica, UX de anulaciones y guía contextual en Caja (pilot)",
+  "url": "https://trazzo-updates.lentinitechnologies.com/installers/4730ea3ff6aad6a2ad0f0ff3c4f503a3b0de71e5bdb38aabc956c31240121718/Trazzo_ERP_Inmobiliario_0.1.37_Setup.exe",
+  "sha256": "4730ea3ff6aad6a2ad0f0ff3c4f503a3b0de71e5bdb38aabc956c31240121718",
+  "notes": "Trazzo 0.1.37 — anulacion de pagos que preserva la historia de aplicaciones, recuperacion del updater que informa fallo y admite reintento, importes con su moneda real, identidad de operacion en reintentos de pago, elegibilidad comercial por capacidad, baja de inventario por papelera y vinculo separacion-oportunidad del mismo cliente (pilot)",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/9c26875d-d183-4a00-9907-82029a731008/patch-manifest-v2.json",
-  "patchManifestSha256": "eaa136ef7a58bbbf203868f8fb1d7f7fad919c823e418f01010734bdb990e402",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/97b5a37d-5331-4b9e-bfe4-eb091cf51150/patch-manifest-v2.json",
+  "patchManifestSha256": "980825248ad33e910adbaf4908714bdbbe4d2f50b1d0c9763dde7e0c16d6a815",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }
