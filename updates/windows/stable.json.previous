@@ -1,11 +1,11 @@
 {
-  "version": "0.1.37",
+  "version": "0.1.38",
   "mandatory": false,
-  "url": "https://trazzo-updates.lentinitechnologies.com/installers/4730ea3ff6aad6a2ad0f0ff3c4f503a3b0de71e5bdb38aabc956c31240121718/Trazzo_ERP_Inmobiliario_0.1.37_Setup.exe",
-  "sha256": "4730ea3ff6aad6a2ad0f0ff3c4f503a3b0de71e5bdb38aabc956c31240121718",
-  "notes": "Trazzo 0.1.37 — anulacion de pagos que preserva la historia de aplicaciones, recuperacion del updater que informa fallo y admite reintento, importes con su moneda real, identidad de operacion en reintentos de pago, elegibilidad comercial por capacidad, baja de inventario por papelera y vinculo separacion-oportunidad del mismo cliente (pilot)",
+  "url": "https://trazzo-updates.lentinitechnologies.com/installers/4feab39cdf4a24319667fb6989a8c7c3e051f7a342219cce23305424bde83575/Trazzo_ERP_Inmobiliario_0.1.38_Setup.exe",
+  "sha256": "4feab39cdf4a24319667fb6989a8c7c3e051f7a342219cce23305424bde83575",
+  "notes": "Trazzo 0.1.38 - facturacion electronica en BETA con factura, boleta y notas de credito y debito, representacion impresa con codigo QR, configuracion por empresa y produccion deshabilitada hasta acreditacion; endurecimiento del tooling de despliegue del piloto (pilot)",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/97b5a37d-5331-4b9e-bfe4-eb091cf51150/patch-manifest-v2.json",
-  "patchManifestSha256": "980825248ad33e910adbaf4908714bdbbe4d2f50b1d0c9763dde7e0c16d6a815",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/a701b6cb-04c6-4ab2-a981-8be565e675ec/patch-manifest-v2.json",
+  "patchManifestSha256": "97d070143cbd06e12bf61d14efb3201fbdb1dc6f66057e86448ea9719f2f0f7c",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }
