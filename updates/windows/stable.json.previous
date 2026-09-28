@@ -1,11 +1,11 @@
 {
-  "version": "0.1.38",
+  "version": "0.1.39",
   "mandatory": false,
-  "url": "https://trazzo-updates.lentinitechnologies.com/installers/4feab39cdf4a24319667fb6989a8c7c3e051f7a342219cce23305424bde83575/Trazzo_ERP_Inmobiliario_0.1.38_Setup.exe",
-  "sha256": "4feab39cdf4a24319667fb6989a8c7c3e051f7a342219cce23305424bde83575",
-  "notes": "Trazzo 0.1.38 - facturacion electronica en BETA con factura, boleta y notas de credito y debito, representacion impresa con codigo QR, configuracion por empresa y produccion deshabilitada hasta acreditacion; endurecimiento del tooling de despliegue del piloto (pilot)",
+  "url": "https://trazzo-updates.lentinitechnologies.com/installers/d3e383220841953759701637ea48fb25253ad6cd17d8f0587d8e28b5da19b7ac/Trazzo_ERP_Inmobiliario_0.1.39_Setup.exe",
+  "sha256": "d3e383220841953759701637ea48fb25253ad6cd17d8f0587d8e28b5da19b7ac",
+  "notes": "Trazzo 0.1.39 - la facturacion electronica ya se usa completa desde el cliente: carga y reemplazo del certificado digital, carga, reemplazo y baja del logo del comprobante, y emision manual de comprobantes con envio a SUNAT en ambiente de pruebas. Sin cambios de backend ni migraciones (pilot)",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/a701b6cb-04c6-4ab2-a981-8be565e675ec/patch-manifest-v2.json",
-  "patchManifestSha256": "97d070143cbd06e12bf61d14efb3201fbdb1dc6f66057e86448ea9719f2f0f7c",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/c6fb4286-c8ac-4b13-bbdc-f62796785596/patch-manifest-v2.json",
+  "patchManifestSha256": "fc78fc149fe07779d645daf82951e31c047e844726fd8b7d23c9eeca01151d3d",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }
