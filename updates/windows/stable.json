@@ -1,11 +1,11 @@
 {
-  "version": "0.1.41",
+  "version": "0.1.43",
   "mandatory": false,
-  "url": "https://trazzo-updates.lentinitechnologies.com/installers/f66b130a1a12a9b8ddb888ed3890c7d2f63eb8dc67aa325ea7e0a4813437caca/Trazzo_ERP_Inmobiliario_0.1.41_Setup.exe",
-  "sha256": "f66b130a1a12a9b8ddb888ed3890c7d2f63eb8dc67aa325ea7e0a4813437caca",
-  "notes": "Trazzo 0.1.41 - cada empresa puede configurar sus propias credenciales de la API de SUNAT (ID de cliente y clave secreta) desde Facturacion, Configuracion SUNAT; la clave secreta se guarda cifrada, no se devuelve nunca al cliente y un campo vacio conserva la anterior; no existen credenciales globales ni herencia entre empresas; e incluye la infraestructura de comunicacion de baja y de reconciliacion de comprobantes, que permanece deshabilitada hasta su acreditacion (pilot)",
+  "url": "https://trazzo-updates.lentinitechnologies.com/installers/d1459db8757875a43711dd7fbbe15368b2a14e03c67caa3ba70b9a6d6927ab9f/Trazzo_ERP_Inmobiliario_0.1.43_Setup.exe",
+  "sha256": "d1459db8757875a43711dd7fbbe15368b2a14e03c67caa3ba70b9a6d6927ab9f",
+  "notes": "Trazzo 0.1.43 - el cliente muestra cada estado de comprobante tal como es, incluido RESULTADO_DESCONOCIDO (envio a SUNAT sin respuesta confirmada), en lugar de presentarlo como Borrador; el inventario ya no muestra unidades inventadas cuando la API falla; el panel deja de dibujar tendencias fabricadas y el embudo de ventas crece con su contenido. Reemplaza a 0.1.42, que no era instalable desde 0.1.41. Solo cliente: el backend PILOT no cambia en esta publicacion (pilot)",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/4fae5b66-35ad-4f10-b62b-f7074f9e8e53/patch-manifest-v2.json",
-  "patchManifestSha256": "07750c33294c6598643585287df29f815a372c68347aceb714055fae631f9fb3",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/ff50f97f-42cf-429c-a772-985c085f0b32/patch-manifest-v2.json",
+  "patchManifestSha256": "72ee10269483e3d39f3e36de73ffff0851d62c4dd05608cef6a977bc4ef55f76",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }
