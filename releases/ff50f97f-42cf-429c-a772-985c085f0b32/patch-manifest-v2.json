@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 2,
+  "releaseId": "ff50f97f-42cf-429c-a772-985c085f0b32",
+  "releaseSequence": 39,
+  "channel": "pilot",
+  "version": "0.1.43",
+  "platform": "windows",
+  "architecture": "x64",
+  "minLauncherVersion": "1.0.0",
+  "minUpdateAgentVersion": "1.0.0",
+  "supportedBaseVersions": [
+    "0.1.10",
+    "0.1.32",
+    "0.1.34",
+    "0.1.35",
+    "0.1.36",
+    "0.1.37",
+    "0.1.38",
+    "0.1.39",
+    "0.1.40",
+    "0.1.41"
+  ],
+  "createdAt": "2026-10-03T05:47:51.465088Z",
+  "files": [
+    {
+      "path": "Trazzo.exe",
+      "sha256": "40f46c4878f293db4f73ce2f3d79ed5970ed0399c3136c2766437f66e1029f86",
+      "size": 93696,
+      "objectId": "sha256:40f46c4878f293db4f73ce2f3d79ed5970ed0399c3136c2766437f66e1029f86",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "executable"
+    },
+    {
+      "path": "data/app.so",
+      "sha256": "5321c7cec34ddcca8e01d65df17ce2c9d4b1038efb21f610f9dafd3622fd624f",
+      "size": 7291824,
+      "objectId": "sha256:5321c7cec34ddcca8e01d65df17ce2c9d4b1038efb21f610f9dafd3622fd624f",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/AssetManifest.bin",
+      "sha256": "778e65b0479e702da1493c9ffbb773effd0cc82747d1a51b610499ed636605f6",
+      "size": 505,
+      "objectId": "sha256:778e65b0479e702da1493c9ffbb773effd0cc82747d1a51b610499ed636605f6",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/FontManifest.json",
+      "sha256": "cd7e03645bc44b2dd47b7cb626f51c4ecbf55a197ab77241628b47ac165fbe21",
+      "size": 208,
+      "objectId": "sha256:cd7e03645bc44b2dd47b7cb626f51c4ecbf55a197ab77241628b47ac165fbe21",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/NOTICES.Z",
+      "sha256": "aeba962db7a55671774b7475a8b23f888c6e85a1880ea4b786a0b14d8358b4d3",
+      "size": 115458,
+      "objectId": "sha256:aeba962db7a55671774b7475a8b23f888c6e85a1880ea4b786a0b14d8358b4d3",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/NativeAssetsManifest.json",
+      "sha256": "9548a31e4a048135c1d94f919328bfb62ae2c7bb3cab96557c7941daa97776cb",
+      "size": 45,
+      "objectId": "sha256:9548a31e4a048135c1d94f919328bfb62ae2c7bb3cab96557c7941daa97776cb",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/assets/branding/trazzo-login-background.png",
+      "sha256": "b66aba80623f532b234e20e00d53bd40c041422ccfe7f3476f3914f4ee50f67d",
+      "size": 1746036,
+      "objectId": "sha256:b66aba80623f532b234e20e00d53bd40c041422ccfe7f3476f3914f4ee50f67d",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/branding/trazzo-logo-horizontal-dark.png",
+      "sha256": "860f468036d5fb8008e7efd80368693d1d122e3a56bd6666ecfac5bfb83964a1",
+      "size": 165852,
+      "objectId": "sha256:860f468036d5fb8008e7efd80368693d1d122e3a56bd6666ecfac5bfb83964a1",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/branding/trazzo-symbol-on-dark.png",
+      "sha256": "1002d54c638c0adc8ac3e2a3db0dcc1fc32bc106731e9e101c296e64253e7d93",
+      "size": 54792,
+      "objectId": "sha256:1002d54c638c0adc8ac3e2a3db0dcc1fc32bc106731e9e101c296e64253e7d93",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/branding/trazzo-symbol.png",
+      "sha256": "5eb3a6f1c1ac01550fc805bd763c9f121dfd763ddf1a617f069ff6de1ff2f30a",
+      "size": 78483,
+      "objectId": "sha256:5eb3a6f1c1ac01550fc805bd763c9f121dfd763ddf1a617f069ff6de1ff2f30a",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/fonts/MaterialIcons-Regular.otf",
+      "sha256": "d9865b671a09d683d13a863089d8825e0f61a37696ce5d7d448bc8023aa62453",
+      "size": 1645184,
+      "objectId": "sha256:d9865b671a09d683d13a863089d8825e0f61a37696ce5d7d448bc8023aa62453",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf",
+      "sha256": "67c44fe9183b002e79dde7f6977e2988661c9a3e4a3c5fce968787efdbed823c",
+      "size": 257628,
+      "objectId": "sha256:67c44fe9183b002e79dde7f6977e2988661c9a3e4a3c5fce968787efdbed823c",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/shaders/ink_sparkle.frag",
+      "sha256": "0ddb6dd1d060d863b453c26aaae72d539d5dbc5443e086ef618280da73d71380",
+      "size": 21328,
+      "objectId": "sha256:0ddb6dd1d060d863b453c26aaae72d539d5dbc5443e086ef618280da73d71380",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/shaders/stretch_effect.frag",
+      "sha256": "0ed3145e5e380355d92f9ccc66dba1c00d1b5001b1efa0dbeb6398dd56910486",
+      "size": 17368,
+      "objectId": "sha256:0ed3145e5e380355d92f9ccc66dba1c00d1b5001b1efa0dbeb6398dd56910486",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/icudtl.dat",
+      "sha256": "998367809a821d595928089c197b3f7959f0420f81f79d4d0daee53378492ed5",
+      "size": 862304,
+      "objectId": "sha256:998367809a821d595928089c197b3f7959f0420f81f79d4d0daee53378492ed5",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "file_selector_windows_plugin.dll",
+      "sha256": "fc618e9f7dfddd4d2286fdfc0cac7c7494ce2fb6a882ae6390462786745dc774",
+      "size": 110080,
+      "objectId": "sha256:fc618e9f7dfddd4d2286fdfc0cac7c7494ce2fb6a882ae6390462786745dc774",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "library"
+    },
+    {
+      "path": "flutter_windows.dll",
+      "sha256": "92e7aa320afe026e90780e4049dc6f6a480696400a269c179b1cca0ef751d175",
+      "size": 20803584,
+      "objectId": "sha256:92e7aa320afe026e90780e4049dc6f6a480696400a269c179b1cca0ef751d175",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "library"
+    },
+    {
+      "path": "url_launcher_windows_plugin.dll",
+      "sha256": "5277955366fec75f1e0005f0826999247dbb3081cb1b8972d0fcca12c256240f",
+      "size": 98304,
+      "objectId": "sha256:5277955366fec75f1e0005f0826999247dbb3081cb1b8972d0fcca12c256240f",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "library"
+    }
+  ],
+  "deletedFiles": [
+    "native_assets.json"
+  ],
+  "protectedPaths": [],
+  "prerequisites": [],
+  "fallbackInstaller": {
+    "version": "0.1.43",
+    "url": "https://trazzo-updates.lentinitechnologies.com/installers/d1459db8757875a43711dd7fbbe15368b2a14e03c67caa3ba70b9a6d6927ab9f/Trazzo_ERP_Inmobiliario_0.1.43_Setup.exe",
+    "sha256": "d1459db8757875a43711dd7fbbe15368b2a14e03c67caa3ba70b9a6d6927ab9f",
+    "size": 15387005
+  },
+  "keyId": "release-2026-a",
+  "signatureAlgorithm": "Ed25519",
+  "signature": "wGOL8GkJrt+Cr6BduXHXEP0IaFpFR7qklL+w2/8sVs8a1ciCffVep5IiMd1+Se6PWojsYHa2Rzwoklb3EIXpCg=="
+}
