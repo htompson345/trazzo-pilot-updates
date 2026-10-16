@@ -1,11 +1,11 @@
 {
-  "version": "0.1.43",
+  "version": "0.1.44",
   "mandatory": false,
-  "url": "https://trazzo-updates.lentinitechnologies.com/installers/d1459db8757875a43711dd7fbbe15368b2a14e03c67caa3ba70b9a6d6927ab9f/Trazzo_ERP_Inmobiliario_0.1.43_Setup.exe",
-  "sha256": "d1459db8757875a43711dd7fbbe15368b2a14e03c67caa3ba70b9a6d6927ab9f",
-  "notes": "Trazzo 0.1.43 - el cliente muestra cada estado de comprobante tal como es, incluido RESULTADO_DESCONOCIDO (envio a SUNAT sin respuesta confirmada), en lugar de presentarlo como Borrador; el inventario ya no muestra unidades inventadas cuando la API falla; el panel deja de dibujar tendencias fabricadas y el embudo de ventas crece con su contenido. Reemplaza a 0.1.42, que no era instalable desde 0.1.41. Solo cliente: el backend PILOT no cambia en esta publicacion (pilot)",
+  "url": "https://trazzo-updates.lentinitechnologies.com/installers/5de436905c7d09107e7ca811365085c981d00bfdee3e948e3596805b35b15fad/Trazzo_ERP_Inmobiliario_0.1.44_Setup.exe",
+  "sha256": "5de436905c7d09107e7ca811365085c981d00bfdee3e948e3596805b35b15fad",
+  "notes": "Trazzo 0.1.44 - correcciones para el piloto: los indicadores de cobranza ya no muestran importes de otra moneda, el detalle por vendedor descarta respuestas de otra seleccion, la confirmacion de importacion queda ligada a su archivo, Caja ejecuta sus operaciones de una en una y Documentos solo muestra registros del tipo elegido. Acompana al backend 0.1.44 ya desplegado en PILOT (pilot)",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/ff50f97f-42cf-429c-a772-985c085f0b32/patch-manifest-v2.json",
-  "patchManifestSha256": "72ee10269483e3d39f3e36de73ffff0851d62c4dd05608cef6a977bc4ef55f76",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/592da9d7-5321-424c-839f-f0fe795ba7dc/patch-manifest-v2.json",
+  "patchManifestSha256": "f29795f62602c5fe1379f57a5489bb5487aa5d761d5a7bfae3d36c9934b7d5e2",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }
