@@ -1,11 +1,11 @@
 {
-  "version": "0.1.44",
+  "version": "0.1.45",
   "mandatory": false,
-  "url": "https://trazzo-updates.lentinitechnologies.com/installers/5de436905c7d09107e7ca811365085c981d00bfdee3e948e3596805b35b15fad/Trazzo_ERP_Inmobiliario_0.1.44_Setup.exe",
-  "sha256": "5de436905c7d09107e7ca811365085c981d00bfdee3e948e3596805b35b15fad",
-  "notes": "Trazzo 0.1.44 - correcciones para el piloto: los indicadores de cobranza ya no muestran importes de otra moneda, el detalle por vendedor descarta respuestas de otra seleccion, la confirmacion de importacion queda ligada a su archivo, Caja ejecuta sus operaciones de una en una y Documentos solo muestra registros del tipo elegido. Acompana al backend 0.1.44 ya desplegado en PILOT (pilot)",
+  "url": "https://trazzo-updates.lentinitechnologies.com/installers/e824ef14d309955bbca5b9e1796b78b56f60493746e085a1662ad467a4ee012b/Trazzo_ERP_Inmobiliario_0.1.45_Setup.exe",
+  "sha256": "e824ef14d309955bbca5b9e1796b78b56f60493746e085a1662ad467a4ee012b",
+  "notes": "Trazzo 0.1.45 - resolucion de contratos con devoluciones y liberacion de unidad, motor de comisiones configurable por empresa (sin politicas activas), listados paginados y selectores en el servidor, CRM operativo con tablero y tareas, y reportes que respetan los permisos financieros. Requiere el backend 0.1.45 (pilot)",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/592da9d7-5321-424c-839f-f0fe795ba7dc/patch-manifest-v2.json",
-  "patchManifestSha256": "f29795f62602c5fe1379f57a5489bb5487aa5d761d5a7bfae3d36c9934b7d5e2",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/01419242-9434-493e-8e35-6b05972775a9/patch-manifest-v2.json",
+  "patchManifestSha256": "d72c2fbfbf9ce301a33706af7bf921471685cb7fb2947263abc21615b01383e9",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }
