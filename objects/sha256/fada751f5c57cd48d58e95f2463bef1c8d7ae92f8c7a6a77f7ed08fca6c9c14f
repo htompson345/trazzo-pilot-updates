@@ -1,0 +1,110 @@
+# Política de privacidad
+
+TRÁZZO ERP Inmobiliario · Versión propuesta 0.3
+
+> BORRADOR — PENDIENTE DE APROBACIÓN JURÍDICA. Basado en la Ley N.º 29733 y en su Reglamento, aprobado por el Decreto Supremo N.º 016-2024-JUS (texto de El Peruano, 30/11/2024, cotejado). Las remisiones a artículos de la Ley N.º 29733 no han sido cotejadas con el texto de la Ley. No sustituye el dictamen de un abogado habilitado en Perú. Los campos [●] son datos pendientes.
+
+## 1. Quién ofrece TRÁZZO y alcance
+
+1.1. TRÁZZO ERP Inmobiliario («TRÁZZO») es ofrecido por David Leonardo Lentini Navarro, persona natural, con RUC N.º 15605433011, bajo el nombre Lentini Technologies (el «Proveedor»). Lentini Technologies es un nombre utilizado comercialmente; no es una persona jurídica constituida ni consta como nombre comercial registrado. Domicilio fiscal: [pendiente de completar]. Contacto: contacto@lentinitechnologies.com.
+
+1.2. Esta política informa cómo se tratan los datos personales en relación con TRÁZZO. Su publicación cumple el deber de información y el principio de transparencia; no sustituye el consentimiento cuando este sea exigible (Reglamento, art. 7).
+
+## 2. Responsable y encargado: el rol depende del caso concreto
+
+2.1. El Reglamento define al responsable del tratamiento como quien decide sobre la finalidad y los medios del tratamiento, y al encargado como quien realiza el tratamiento por cuenta u orden del responsable o del titular del banco de datos (Reglamento, art. III, numerales 10 y 22). El rol no depende de quién posee el servidor, sino de quién decide y de la actividad que realiza cada parte.
+
+2.2. Regla general:
+- Datos que una organización registra en TRÁZZO (de compradores, clientes, prospectos, usuarios, contratos, pagos y operaciones): la organización decide las finalidades y los medios y es quien responde frente a los titulares.
+- El Proveedor no trata esos datos mientras no acceda a ellos. Si accede (por ejemplo, durante la instalación, el mantenimiento o el soporte) o si presta alojamiento por acuerdo, actúa en esa medida como encargado por cuenta de la organización.
+- Datos de contacto de las personas que escriben al Proveedor o gestionan acuerdos con él: el Proveedor es responsable.
+
+2.3. El Proveedor no presta alojamiento en todas las instalaciones. Según la modalidad acordada, la infraestructura (servidor, base de datos, almacenamiento y respaldos) puede ser provista y administrada por la organización o por un tercero que ella contrate.
+
+2.4. Cuando actúe como encargado, el Proveedor: no transferirá a terceros los datos que trate por encargo sin autorización del responsable (Reglamento, art. 31.1); no subcontratará su tratamiento sin autorización previa del responsable (art. 32); informará de inmediato al responsable de cualquier incidente de seguridad de que tenga conocimiento (art. 36); y trasladará al responsable, dentro de tres días, las solicitudes de derechos que reciba (art. 66.4). [Un contrato de encargo por escrito y su contenido: validar con abogado; no se afirma aquí que sea obligatorio.]
+
+## 3. Datos que se tratan
+
+- Usuarios: nombre, correo electrónico, rol, permisos, sucursal, registros de acceso y de auditoría de sus acciones.
+- Compradores, clientes y prospectos de la organización: los que ella registre (identificación, contacto, contratos, pagos, cuotas, documentos y seguimiento comercial). [Confirmar categorías reales e indicar si se tratan datos sensibles.]
+- Respaldos: copias de los datos anteriores, bajo la custodia de quien las ejecute.
+- Datos técnicos: TRÁZZO no incorpora telemetría adicional sin que se defina previamente su finalidad, necesidad y base jurídica. [Verificar con el equipo técnico qué datos genera hoy el aplicativo y cuáles salen del equipo de la organización, por ejemplo al consultar actualizaciones.]
+- Consultas y soporte: los datos que la persona decida incluir al escribir al correo de contacto. TRÁZZO no envía información del usuario al abrir el correo de contacto.
+
+## 4. Finalidades y bases
+
+- Operar el aplicativo, autenticar usuarios y controlar permisos. Base: ejecución de la relación contractual. Decide: la organización.
+- Auditoría y trazabilidad de acciones. Base: obligación contractual o interés legítimo. Decide: la organización.
+- Instalación, mantenimiento y soporte, con acceso a datos cuando sea necesario. Base: instrucción de la organización. Actúa el Proveedor por cuenta de ella.
+- Copias de seguridad y recuperación. Decide: quien custodie las copias según el acuerdo.
+- Atender consultas y gestionar acuerdos con el Proveedor. Decide: el Proveedor.
+- Cumplir obligaciones legales.
+
+[Las bases legales concretas deben validarse con un abogado frente a la Ley N.º 29733, cuyo texto no se ha cotejado.] Cuando una finalidad requiera consentimiento, este debe ser libre, previo, expreso e inequívoco e informado (Reglamento, art. 2), se recabará de forma separada, y su prueba corresponde a quien sea responsable (art. 9). No se condiciona el uso del aplicativo a consentimientos innecesarios (art. 3.2).
+
+## 5. Acceso técnico autorizado y confidencialidad
+
+El Proveedor no afirma que nunca acceda a datos. Si la instalación, el mantenimiento o el soporte requieren acceso a información personal:
+- el acceso solo se realizará con la autorización de la organización, que fija su alcance y duración;
+- se limitará a lo mínimo necesario y se usará solo para la finalidad autorizada;
+- se dejará registro del acceso [medio de registro: pendiente de definir];
+- las personas con acceso están sujetas a confidencialidad;
+- las medidas de seguridad del acceso remoto y la eliminación de cualquier copia hecha para el soporte se informarán cuando estén definidas [pendiente].
+
+## 6. Seguridad
+
+6.1. Medidas existentes en TRÁZZO: control de acceso por roles y permisos; autenticación de usuarios; registros de auditoría; separación de la información entre empresas; herramientas de copia de seguridad con verificación de integridad [confirmar alcance y cifrado]; segundo factor de autenticación como opción, no activado por defecto.
+
+6.2. La seguridad de la infraestructura corresponde a quien la provea o administre. Ninguna medida elimina por completo el riesgo.
+
+6.3. Información para las organizaciones usuarias. El Reglamento establece, para quien trata datos personales con sistemas informáticos, obligaciones de control de acceso, registros de trazabilidad conservados al menos dos años (art. 46), un documento de seguridad aprobado y con fecha cierta (art. 47) y copias de respaldo al menos semanales, salvo que no haya habido actualización de datos, con verificación de integridad (art. 51). Cumplir esas obligaciones corresponde a quien sea responsable del tratamiento. [Abogado: determinar cómo se aplican al Proveedor y a cada modalidad.]
+
+## 7. Conservación y eliminación
+
+- La organización decide cuánto conserva sus datos, conforme a la ley que le sea aplicable.
+- Si el Proveedor trata datos por encargo, el Reglamento fija como máximo dos años desde la finalización del último encargo para conservarlos, y prohíbe, por regla general, la conservación indeterminada; si una norma obliga a conservarlos más tiempo, deben devolverse al responsable (art. 31.2). No se establece aquí ningún otro plazo.
+- La eliminación de datos se rige por las obligaciones legales y por la modalidad de servicio; no se declara un plazo universal.
+- Plazo de conservación de los datos que el Proveedor trata como responsable: [●].
+- Las copias de seguridad siguen la política de retención de quien las custodie [●].
+
+## 8. Proveedores y transferencias
+
+8.1. Los proveedores de infraestructura y servicios que la organización contrate (servidor, dominio, copias externas) son de su responsabilidad. El Proveedor no declara ubicaciones ni transferencias internacionales que no consten.
+
+8.2. Si utilizara proveedores para sus propios tratamientos o prestara alojamiento, informará quién es el proveedor, el país y las garantías antes de hacerlo. El flujo transfronterizo exige un país con nivel adecuado de protección o garantías adecuadas y debe ponerse en conocimiento de la Autoridad (Reglamento, arts. 18 a 21). A la fecha no se declara ninguna transferencia internacional.
+
+8.3. Si el Proveedor prestara servicios de tratamiento por medios tecnológicos tercerizados, se aplicarán las prestaciones mínimas de los arts. 29 y 30 del Reglamento. Esa modalidad no se ofrece por defecto.
+
+## 9. Derechos de las personas titulares
+
+9.1. Las personas titulares pueden ejercer los derechos de información, acceso (incluida la portabilidad en los términos del art. 76), rectificación, cancelación u oposición, y el derecho al tratamiento objetivo (Reglamento, arts. 74 a 87). El ejercicio frente a bancos de datos privados es gratuito (art. 67.3).
+
+9.2. Plazos máximos de respuesta, en días hábiles contados desde el día siguiente a la solicitud: información, 8 días; acceso, 20 días; rectificación, cancelación y oposición, 10 días (art. 69). Salvo el de información, pueden ampliarse una sola vez por un plazo igual, si las circunstancias lo justifican (art. 71).
+
+9.3. Si sus datos los registró una organización usuaria, debe dirigirse a ella; el Proveedor le trasladará la solicitud en el plazo indicado en 2.4. Para los datos que el Proveedor trata como responsable, escriba a contacto@lentinitechnologies.com con el asunto «Derechos sobre datos personales», identificándose (art. 63) y precisando su solicitud (art. 64).
+
+9.4. Si su solicitud es denegada o no se atiende, puede reclamar ante la Autoridad Nacional de Protección de Datos Personales o acudir al Poder Judicial (art. 73). La Autoridad ofrece la plataforma «Yo cuido mis datos personales» para reclamaciones y denuncias (Reglamento, Cuarta Disposición Complementaria Final).
+
+## 10. Incidentes de seguridad
+
+10.1. Cuando el Proveedor actúe como encargado, informará de inmediato a la organización de cualquier incidente que conozca (art. 36).
+
+10.2. Quien sea responsable debe notificar a la Autoridad, dentro de las 48 horas de haber tomado conocimiento, los incidentes que expongan grandes volúmenes de datos, afecten a un gran número de personas, involucren datos sensibles o causen un perjuicio evidente a otros derechos del titular, y comunicar el incidente a los titulares afectados dentro de las 48 horas cuando los afecte en otros derechos; si el incidente se desarrolla en el entorno digital, además al Centro Nacional de Seguridad Digital (art. 34). Debe documentar todo incidente (art. 35).
+
+10.3. Los incidentes en la infraestructura de la organización corresponden, en primer término, a quien la administre.
+
+## 11. Obligaciones de las organizaciones usuarias
+
+Las organizaciones son responsables, según su rol, de: contar con la base legal y, cuando proceda, el consentimiento para tratar los datos que registran; informar a sus titulares; atender sus derechos; autorizar y supervisar los accesos de soporte; mantener actualizados los accesos de sus usuarios; custodiar los respaldos que les correspondan; inscribir sus bancos de datos en el Registro Nacional de Protección de Datos Personales cuando creen, modifiquen o cancelen uno (Reglamento, art. 42); y designar un Oficial de Datos Personales cuando concurran los supuestos del art. 37 (cuya exigibilidad es progresiva según el tamaño de la empresa, conforme a la Primera Disposición Complementaria Final).
+
+## 12. Formalidades del Proveedor
+
+[Validar con abogado: si el Proveedor debe inscribir bancos de datos propios (art. 42); si debe designar un Oficial de Datos Personales según los supuestos del art. 37 y su calendario; y si debe contar con documento de seguridad (art. 47).]
+
+## 13. Cambios y vigencia
+
+Esta política puede actualizarse. Son cambios sustanciales los que afecten los derechos de las personas titulares o el tratamiento de sus datos. Como política comercial se avisarán con al menos 30 días de anticipación al administrador de cada organización, sin perjuicio de los plazos legales. Cada versión tiene número y fecha, y se conservan las anteriores.
+
+## 14. Contacto
+
+contacto@lentinitechnologies.com

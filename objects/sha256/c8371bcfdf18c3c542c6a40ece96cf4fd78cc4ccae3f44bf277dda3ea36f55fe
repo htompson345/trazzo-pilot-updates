@@ -1,0 +1,8 @@
+{
+  "estado": "BORRADOR_PENDIENTE_APROBACION_JURIDICA",
+  "documentos": [
+    {"id": "terminos", "titulo": "Términos y condiciones de uso", "archivo": "TERMINOS-Y-CONDICIONES.txt", "version": "0.3-borrador", "vigenteDesde": null},
+    {"id": "privacidad", "titulo": "Política de privacidad", "archivo": "POLITICA-DE-PRIVACIDAD.txt", "version": "0.3-borrador", "vigenteDesde": null},
+    {"id": "licencia", "titulo": "Acuerdo de licencia de usuario final (EULA)", "archivo": "ACUERDO-DE-LICENCIA.txt", "version": "0.3-borrador", "vigenteDesde": null}
+  ]
+}

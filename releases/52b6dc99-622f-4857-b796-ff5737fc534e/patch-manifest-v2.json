@@ -1,0 +1,1312 @@
+{
+  "schemaVersion": 2,
+  "releaseId": "52b6dc99-622f-4857-b796-ff5737fc534e",
+  "releaseSequence": 45,
+  "channel": "pilot",
+  "version": "0.1.48",
+  "platform": "windows",
+  "architecture": "x64",
+  "minLauncherVersion": "1.0.0",
+  "minUpdateAgentVersion": "1.0.0",
+  "supportedBaseVersions": [
+    "0.1.46"
+  ],
+  "createdAt": "2026-11-18T13:41:54.691826Z",
+  "files": [
+    {
+      "path": "Trazzo.exe",
+      "sha256": "9d4691ff45bf1be28eb6beb3831f01f05e4468bd0bf7519861bfbc6102ad6d52",
+      "size": 193024,
+      "objectId": "sha256:9d4691ff45bf1be28eb6beb3831f01f05e4468bd0bf7519861bfbc6102ad6d52",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "executable"
+    },
+    {
+      "path": "data/app.so",
+      "sha256": "e2bf4c85e8922f2ac257ece15d9d10d182d5756219b3918d887cdc944876621f",
+      "size": 9618352,
+      "objectId": "sha256:e2bf4c85e8922f2ac257ece15d9d10d182d5756219b3918d887cdc944876621f",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/AssetManifest.bin",
+      "sha256": "92db294fd32a86dfc17ac2cacc561b827e810eba824edb6157ebfbe226fd4193",
+      "size": 14829,
+      "objectId": "sha256:92db294fd32a86dfc17ac2cacc561b827e810eba824edb6157ebfbe226fd4193",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/FontManifest.json",
+      "sha256": "58d9e35b4968e97cfd2db9d76ed228eb899c70bf382b5099f6ce92301b89930b",
+      "size": 598,
+      "objectId": "sha256:58d9e35b4968e97cfd2db9d76ed228eb899c70bf382b5099f6ce92301b89930b",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/NOTICES.Z",
+      "sha256": "aeba962db7a55671774b7475a8b23f888c6e85a1880ea4b786a0b14d8358b4d3",
+      "size": 115458,
+      "objectId": "sha256:aeba962db7a55671774b7475a8b23f888c6e85a1880ea4b786a0b14d8358b4d3",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/NativeAssetsManifest.json",
+      "sha256": "9548a31e4a048135c1d94f919328bfb62ae2c7bb3cab96557c7941daa97776cb",
+      "size": 45,
+      "objectId": "sha256:9548a31e4a048135c1d94f919328bfb62ae2c7bb3cab96557c7941daa97776cb",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "data/flutter_assets/assets/fonts/inter/Inter-Bold.ttf",
+      "sha256": "288316099b1e0a47a4716d159098005eef7c0066921f34e3200393dbdb01947f",
+      "size": 420428,
+      "objectId": "sha256:288316099b1e0a47a4716d159098005eef7c0066921f34e3200393dbdb01947f",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/fonts/inter/Inter-ExtraBold.ttf",
+      "sha256": "e6756ad5690b77606aa62249a7b420d9902d45cae4b0048a24911fd4324b0a22",
+      "size": 421796,
+      "objectId": "sha256:e6756ad5690b77606aa62249a7b420d9902d45cae4b0048a24911fd4324b0a22",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/fonts/inter/Inter-Italic.ttf",
+      "sha256": "bbc051dd204b5019a1aa0bc0ae2aa8a05ab13e7a3f979fa357631dc7feb6833a",
+      "size": 417388,
+      "objectId": "sha256:bbc051dd204b5019a1aa0bc0ae2aa8a05ab13e7a3f979fa357631dc7feb6833a",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/fonts/inter/Inter-Medium.ttf",
+      "sha256": "97ad806f526e41546d46365bb3a393145f75b7b1568913db74549ad8b8dba872",
+      "size": 417300,
+      "objectId": "sha256:97ad806f526e41546d46365bb3a393145f75b7b1568913db74549ad8b8dba872",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/fonts/inter/Inter-Regular.ttf",
+      "sha256": "40d692fce188e4471e2b3cba937be967878f631ad3ebbbdcd587687c7ebe0c82",
+      "size": 411640,
+      "objectId": "sha256:40d692fce188e4471e2b3cba937be967878f631ad3ebbbdcd587687c7ebe0c82",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/fonts/inter/Inter-SemiBold.ttf",
+      "sha256": "78a843fade9d4612a5567302fb595b56976eb5fcebf4fea5a5912d638bafcde3",
+      "size": 419744,
+      "objectId": "sha256:78a843fade9d4612a5567302fb595b56976eb5fcebf4fea5a5912d638bafcde3",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/alameda-claro/pie-menu.png",
+      "sha256": "0fcc800509cdf8e1bd2f8e4d9ce8869cabc5b5bd73cb20adae51c55c335bf9b0",
+      "size": 55224,
+      "objectId": "sha256:0fcc800509cdf8e1bd2f8e4d9ce8869cabc5b5bd73cb20adae51c55c335bf9b0",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/alameda-claro/portada.png",
+      "sha256": "2c5a2bd93498349cd15125dad2f1f86872f7b4800ea241ff977f79017342d1a2",
+      "size": 317666,
+      "objectId": "sha256:2c5a2bd93498349cd15125dad2f1f86872f7b4800ea241ff977f79017342d1a2",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/alameda-claro/proyecto-1.png",
+      "sha256": "58aada027b0b3d046393e11322565503934ec1203735725e17309870ba8d9956",
+      "size": 18904,
+      "objectId": "sha256:58aada027b0b3d046393e11322565503934ec1203735725e17309870ba8d9956",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/alameda-claro/proyecto-2.png",
+      "sha256": "086cfba2a356e7523844460cad4baca7608e8fe77c0d64e153fde0780984d610",
+      "size": 18341,
+      "objectId": "sha256:086cfba2a356e7523844460cad4baca7608e8fe77c0d64e153fde0780984d610",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/alameda-claro/proyecto-3.png",
+      "sha256": "d1501c006f29fcb2d08d6bd3165ff7c20eb74184007364095cbdccdc710bf46e",
+      "size": 18173,
+      "objectId": "sha256:d1501c006f29fcb2d08d6bd3165ff7c20eb74184007364095cbdccdc710bf46e",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/alameda-oscuro/pie-menu.png",
+      "sha256": "5a6495c95895345e4d25e27cc571ce2b4881bf0fe05b40029746e811fecd32fe",
+      "size": 64724,
+      "objectId": "sha256:5a6495c95895345e4d25e27cc571ce2b4881bf0fe05b40029746e811fecd32fe",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/alameda-oscuro/portada.png",
+      "sha256": "804a55c3d32f68b50eb541adaf7880e7d4827c0e9208b9112fe8ff35bca248ee",
+      "size": 332885,
+      "objectId": "sha256:804a55c3d32f68b50eb541adaf7880e7d4827c0e9208b9112fe8ff35bca248ee",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/alameda-oscuro/proyecto-1.png",
+      "sha256": "c70e6a3fbf21c7accf589ef3cca944d2c2101908dcf57eb817858cf8ab1f0d49",
+      "size": 19123,
+      "objectId": "sha256:c70e6a3fbf21c7accf589ef3cca944d2c2101908dcf57eb817858cf8ab1f0d49",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/alameda-oscuro/proyecto-2.png",
+      "sha256": "0e307e1c535156f38391282596cfca4dc90831e93c8b42c34ca360d604304478",
+      "size": 18313,
+      "objectId": "sha256:0e307e1c535156f38391282596cfca4dc90831e93c8b42c34ca360d604304478",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/alameda-oscuro/proyecto-3.png",
+      "sha256": "1a4bf68a924407407349c755979044bf9b363e555e60cafe507c9e8243541fff",
+      "size": 18132,
+      "objectId": "sha256:1a4bf68a924407407349c755979044bf9b363e555e60cafe507c9e8243541fff",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/trazzo-claro/pie-menu.png",
+      "sha256": "bfa93545b40ddd52b3741319ffad5aa8eedad07c9402a770027a368ef0e89d00",
+      "size": 43465,
+      "objectId": "sha256:bfa93545b40ddd52b3741319ffad5aa8eedad07c9402a770027a368ef0e89d00",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/trazzo-claro/portada.png",
+      "sha256": "01bb3d727c37ac61d2533158475af18a0e7270301a428ff55ffc825b54938415",
+      "size": 299575,
+      "objectId": "sha256:01bb3d727c37ac61d2533158475af18a0e7270301a428ff55ffc825b54938415",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/trazzo-claro/proyecto-1.png",
+      "sha256": "5479ee62e379d79c68094a741bddf3ab3d5bca3116f4398d8c20e7755855b876",
+      "size": 18550,
+      "objectId": "sha256:5479ee62e379d79c68094a741bddf3ab3d5bca3116f4398d8c20e7755855b876",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/trazzo-claro/proyecto-2.png",
+      "sha256": "d3dc8705105f4c348f2a295ff78865422a88fcbd500da15d77e3fe86e39628fa",
+      "size": 18238,
+      "objectId": "sha256:d3dc8705105f4c348f2a295ff78865422a88fcbd500da15d77e3fe86e39628fa",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/trazzo-claro/proyecto-3.png",
+      "sha256": "bc581020f5d638cca96dd8a91780194203b623f373b59ba7ea525180b83d705c",
+      "size": 17660,
+      "objectId": "sha256:bc581020f5d638cca96dd8a91780194203b623f373b59ba7ea525180b83d705c",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/trazzo-oscuro/pie-menu.png",
+      "sha256": "3d334364128e5d1ccb9392236ae5ef0d52c96536e2f46afbb838e6dad5864499",
+      "size": 53968,
+      "objectId": "sha256:3d334364128e5d1ccb9392236ae5ef0d52c96536e2f46afbb838e6dad5864499",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/trazzo-oscuro/portada.png",
+      "sha256": "14fab7aa1700356a8edb3ee2b0ac84d8ba9e7ca56c0a5b18972efd447bb55c39",
+      "size": 314013,
+      "objectId": "sha256:14fab7aa1700356a8edb3ee2b0ac84d8ba9e7ca56c0a5b18972efd447bb55c39",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/trazzo-oscuro/proyecto-1.png",
+      "sha256": "369ed3b4c5cc127df8af9159a44e6197de281a1a639b5b3eb4d0f148cef8b25f",
+      "size": 18639,
+      "objectId": "sha256:369ed3b4c5cc127df8af9159a44e6197de281a1a639b5b3eb4d0f148cef8b25f",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/trazzo-oscuro/proyecto-2.png",
+      "sha256": "4b7c0c203fe2af05bac644219eace4199d27018311f37ab6dcb109f928472bf2",
+      "size": 18020,
+      "objectId": "sha256:4b7c0c203fe2af05bac644219eace4199d27018311f37ab6dcb109f928472bf2",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/decoracion/trazzo-oscuro/proyecto-3.png",
+      "sha256": "f0a4fa45229a41247d18ca382eb5b2686cc8fbb10075d398cc108ff59f25a04e",
+      "size": 17881,
+      "objectId": "sha256:f0a4fa45229a41247d18ca382eb5b2686cc8fbb10075d398cc108ff59f25a04e",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/act-calendario.png",
+      "sha256": "5908b419ec947fe0077a37cf0a066ec01ecf9775fb46e841a1c3cea30b6ea807",
+      "size": 5510,
+      "objectId": "sha256:5908b419ec947fe0077a37cf0a066ec01ecf9775fb46e841a1c3cea30b6ea807",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/act-documento.png",
+      "sha256": "46d716385d90429d01b6cdff90336b830bf077a487db63d4567bdeec6b55c152",
+      "size": 5342,
+      "objectId": "sha256:46d716385d90429d01b6cdff90336b830bf077a487db63d4567bdeec6b55c152",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/act-tarea.png",
+      "sha256": "a1a526fe3e22917a75e2ad1a99cb96dfed7d42c9458a18f449b8fd82c8a5eadb",
+      "size": 5655,
+      "objectId": "sha256:a1a526fe3e22917a75e2ad1a99cb96dfed7d42c9458a18f449b8fd82c8a5eadb",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/ajustes.png",
+      "sha256": "c7f1e6aa4dead78e9d134f39fe4406c94bd80273e1081802bd3dd34ad7e11e30",
+      "size": 12341,
+      "objectId": "sha256:c7f1e6aa4dead78e9d134f39fe4406c94bd80273e1081802bd3dd34ad7e11e30",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/aplicaciones.png",
+      "sha256": "eb9ff1a945f6c6d0a6a9088c4024ad71379eb8921aa5dce50c06dda4119270d9",
+      "size": 11737,
+      "objectId": "sha256:eb9ff1a945f6c6d0a6a9088c4024ad71379eb8921aa5dce50c06dda4119270d9",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/calendario.png",
+      "sha256": "d5afd52a5b0a1f7972a692e11c47f2b34eb01162f8d692f3a9e9117c3ceade1a",
+      "size": 12924,
+      "objectId": "sha256:d5afd52a5b0a1f7972a692e11c47f2b34eb01162f8d692f3a9e9117c3ceade1a",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/contactos.png",
+      "sha256": "be716402f80db8e811ed022270886773522c331464db015d2c8cb38155a65ac6",
+      "size": 10401,
+      "objectId": "sha256:be716402f80db8e811ed022270886773522c331464db015d2c8cb38155a65ac6",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/crm.png",
+      "sha256": "7afba32130dca95b78fc85d0bc8d602e512fe7803062eac50628cf5c4fb435b6",
+      "size": 11207,
+      "objectId": "sha256:7afba32130dca95b78fc85d0bc8d602e512fe7803062eac50628cf5c4fb435b6",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/documentos.png",
+      "sha256": "a22a42e5d2940ca603d0cf3055e33793efb94dd36913237d726ccf2d5f8b26dc",
+      "size": 11380,
+      "objectId": "sha256:a22a42e5d2940ca603d0cf3055e33793efb94dd36913237d726ccf2d5f8b26dc",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/empleados.png",
+      "sha256": "cf2568133baa3b62ab72a85b6574607007aed7d69e3d4ac2f0036ad795a0912d",
+      "size": 12499,
+      "objectId": "sha256:cf2568133baa3b62ab72a85b6574607007aed7d69e3d4ac2f0036ad795a0912d",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/encuestas.png",
+      "sha256": "d77d05f658b156e11a4b5f389faa8a848f67f6cea3d64cf16296227600784e15",
+      "size": 12536,
+      "objectId": "sha256:d77d05f658b156e11a4b5f389faa8a848f67f6cea3d64cf16296227600784e15",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/firma.png",
+      "sha256": "4e466b63107cb3c440b4918093cfd675f3e332c97a1a2f7cdb3613319c255625",
+      "size": 11040,
+      "objectId": "sha256:4e466b63107cb3c440b4918093cfd675f3e332c97a1a2f7cdb3613319c255625",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/ind-cobranza.png",
+      "sha256": "186c71375358f64193092bcd74ef2369cee9148ffa587cce57dfde3547c2de99",
+      "size": 6205,
+      "objectId": "sha256:186c71375358f64193092bcd74ef2369cee9148ffa587cce57dfde3547c2de99",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/ind-obras.png",
+      "sha256": "deb8600c4f5cc9d52575eef2e2ec043184ece403bb01f1232ced4212d6d53254",
+      "size": 5364,
+      "objectId": "sha256:deb8600c4f5cc9d52575eef2e2ec043184ece403bb01f1232ced4212d6d53254",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/ind-ventas.png",
+      "sha256": "bf3af2d7c2beb1ae6d8dbcbdeb301e951811d1dcb93770ee259bd12293541923",
+      "size": 5778,
+      "objectId": "sha256:bf3af2d7c2beb1ae6d8dbcbdeb301e951811d1dcb93770ee259bd12293541923",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/inventario.png",
+      "sha256": "ceced2a1781b0bfb6cb49f341f1b172ecb161f5b615373c500f71ca3b6f7049c",
+      "size": 11885,
+      "objectId": "sha256:ceced2a1781b0bfb6cb49f341f1b172ecb161f5b615373c500f71ca3b6f7049c",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/planeacion.png",
+      "sha256": "81de46459814ffae0c819305831110d2fb37c622e891922f83cc575375232a85",
+      "size": 12748,
+      "objectId": "sha256:81de46459814ffae0c819305831110d2fb37c622e891922f83cc575375232a85",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/proyectos.png",
+      "sha256": "4fd44603203ced5f0de5f23006169b690e63bfd686a9ac3d85423b128fc2464e",
+      "size": 10231,
+      "objectId": "sha256:4fd44603203ced5f0de5f23006169b690e63bfd686a9ac3d85423b128fc2464e",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/reportes.png",
+      "sha256": "e4288881412a2cbc71064f26fb9589af060331740a2551cd87375a98970eced2",
+      "size": 11886,
+      "objectId": "sha256:e4288881412a2cbc71064f26fb9589af060331740a2551cd87375a98970eced2",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/tableros.png",
+      "sha256": "d2ddfc2276f8f905da687e70398935d86ebdbbb2d1518653130f9fd939daa7d6",
+      "size": 13470,
+      "objectId": "sha256:d2ddfc2276f8f905da687e70398935d86ebdbbb2d1518653130f9fd939daa7d6",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-claro/ventas.png",
+      "sha256": "7d55e97df09607d9be9613280f650e5703cc5a2c31a8206df7e23ed11960c733",
+      "size": 11945,
+      "objectId": "sha256:7d55e97df09607d9be9613280f650e5703cc5a2c31a8206df7e23ed11960c733",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/act-calendario.png",
+      "sha256": "7f93f2658bf163d6bb585495a3ffd92e5a8c1bff096f3c8c85e230d3580b256e",
+      "size": 6198,
+      "objectId": "sha256:7f93f2658bf163d6bb585495a3ffd92e5a8c1bff096f3c8c85e230d3580b256e",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/act-documento.png",
+      "sha256": "607132d182b552e9c1f72119cc226b36b23480dde2b5ac16c1ef30cde38e69c8",
+      "size": 5851,
+      "objectId": "sha256:607132d182b552e9c1f72119cc226b36b23480dde2b5ac16c1ef30cde38e69c8",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/act-tarea.png",
+      "sha256": "fe7fe5c3171d9961bd62a28e95206f738f45d5badf2409bfbf5badba1d331f5a",
+      "size": 6747,
+      "objectId": "sha256:fe7fe5c3171d9961bd62a28e95206f738f45d5badf2409bfbf5badba1d331f5a",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/ajustes.png",
+      "sha256": "7a45b3a24be08217ef7e4929f7ebd4844512c179c3127613f055e25176bdb95d",
+      "size": 11390,
+      "objectId": "sha256:7a45b3a24be08217ef7e4929f7ebd4844512c179c3127613f055e25176bdb95d",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/aplicaciones.png",
+      "sha256": "a824822ec0eef09f5af7941881632312fe76c521e8f95e66ffbcc2acfded643a",
+      "size": 12466,
+      "objectId": "sha256:a824822ec0eef09f5af7941881632312fe76c521e8f95e66ffbcc2acfded643a",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/calendario.png",
+      "sha256": "2ce8b160523a047034016a49c9b4a3f867e27694df9c6142010ec2a26308da4c",
+      "size": 12875,
+      "objectId": "sha256:2ce8b160523a047034016a49c9b4a3f867e27694df9c6142010ec2a26308da4c",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/contactos.png",
+      "sha256": "7bbb82709d8a25779fdcff1037c1d1ff6e26694f4e76d36f2332b2f96c4d9a1a",
+      "size": 12729,
+      "objectId": "sha256:7bbb82709d8a25779fdcff1037c1d1ff6e26694f4e76d36f2332b2f96c4d9a1a",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/crm.png",
+      "sha256": "e88ac45e6468b2927f1f62f7bc6ca7dedb0ab4f43bb9322661c6cee1fb574aed",
+      "size": 9783,
+      "objectId": "sha256:e88ac45e6468b2927f1f62f7bc6ca7dedb0ab4f43bb9322661c6cee1fb574aed",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/documentos.png",
+      "sha256": "cd1458909ee7ea5dbd3a4e49270b90583dad660c18eb7eae65f13af6835d5208",
+      "size": 10281,
+      "objectId": "sha256:cd1458909ee7ea5dbd3a4e49270b90583dad660c18eb7eae65f13af6835d5208",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/empleados.png",
+      "sha256": "c284f836855c0471deaf52616e1a7f7c9f8f26fb9df6ce501efb596a271ea0aa",
+      "size": 13260,
+      "objectId": "sha256:c284f836855c0471deaf52616e1a7f7c9f8f26fb9df6ce501efb596a271ea0aa",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/encuestas.png",
+      "sha256": "6f42d4e32cc6263cdd88feebe5519eade106362f51fd249fc6ca77d3995eabd8",
+      "size": 13161,
+      "objectId": "sha256:6f42d4e32cc6263cdd88feebe5519eade106362f51fd249fc6ca77d3995eabd8",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/firma.png",
+      "sha256": "53727339ecc003101352dd9faba83732970ecd6bbce7aa30fed3f5fa34806f25",
+      "size": 13757,
+      "objectId": "sha256:53727339ecc003101352dd9faba83732970ecd6bbce7aa30fed3f5fa34806f25",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/ind-cobranza.png",
+      "sha256": "2e0765762c4efc1b7946bee7fdb25ee3173d65c6e0aae31afd553d95f2da4233",
+      "size": 1203,
+      "objectId": "sha256:2e0765762c4efc1b7946bee7fdb25ee3173d65c6e0aae31afd553d95f2da4233",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/ind-obras.png",
+      "sha256": "c8778a1379c66f94d83664bb012356621561e56621eceb041158966829934986",
+      "size": 1260,
+      "objectId": "sha256:c8778a1379c66f94d83664bb012356621561e56621eceb041158966829934986",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/ind-ventas.png",
+      "sha256": "43f325e69d3da24c89b1fe6d51c02db67ee039a996275c01d0170558c70edb6f",
+      "size": 1188,
+      "objectId": "sha256:43f325e69d3da24c89b1fe6d51c02db67ee039a996275c01d0170558c70edb6f",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/inventario.png",
+      "sha256": "68730011f0881f45c906970daac5a8490ba3091eab6e49bb1fbcd1552981be37",
+      "size": 13454,
+      "objectId": "sha256:68730011f0881f45c906970daac5a8490ba3091eab6e49bb1fbcd1552981be37",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/planeacion.png",
+      "sha256": "8e7baaae8e745b4b550125119e84930e86802a27469f76ec21b3bf0ede6d3889",
+      "size": 13340,
+      "objectId": "sha256:8e7baaae8e745b4b550125119e84930e86802a27469f76ec21b3bf0ede6d3889",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/proyectos.png",
+      "sha256": "8cf710cd03bc82a86b626e5423ce4f3d49af13b79fdd6870e016c6cd05c555a2",
+      "size": 9708,
+      "objectId": "sha256:8cf710cd03bc82a86b626e5423ce4f3d49af13b79fdd6870e016c6cd05c555a2",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/reportes.png",
+      "sha256": "63eeace8d4436000e56109e264dac143331572dc461b8e22d3e3cb76816d88d8",
+      "size": 14442,
+      "objectId": "sha256:63eeace8d4436000e56109e264dac143331572dc461b8e22d3e3cb76816d88d8",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/tableros.png",
+      "sha256": "48af7022feb548f4e2748e7ffcc9b73cf86340e82d056d7ceb7725efedab9c06",
+      "size": 12579,
+      "objectId": "sha256:48af7022feb548f4e2748e7ffcc9b73cf86340e82d056d7ceb7725efedab9c06",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/alameda-oscuro/ventas.png",
+      "sha256": "a19a0379e5ed49dede38e59421d7eda68b3d765fe5623c5067f1ea8014bc926a",
+      "size": 12007,
+      "objectId": "sha256:a19a0379e5ed49dede38e59421d7eda68b3d765fe5623c5067f1ea8014bc926a",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/act-calendario.png",
+      "sha256": "38fbf68f4d6e047d1fd2829e8959bbf9d2b87f3ab49d61625a7c0c09b18d8382",
+      "size": 5317,
+      "objectId": "sha256:38fbf68f4d6e047d1fd2829e8959bbf9d2b87f3ab49d61625a7c0c09b18d8382",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/act-documento.png",
+      "sha256": "a0b6e40275e870bde15b632c9d6acb0bde2f1a7ccd514c7af553dc6127e4ab38",
+      "size": 5144,
+      "objectId": "sha256:a0b6e40275e870bde15b632c9d6acb0bde2f1a7ccd514c7af553dc6127e4ab38",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/act-tarea.png",
+      "sha256": "53237d7c46c9b63634e5623093102d2078134081af8d71b7a8b4cbe49d7647e4",
+      "size": 5582,
+      "objectId": "sha256:53237d7c46c9b63634e5623093102d2078134081af8d71b7a8b4cbe49d7647e4",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/ajustes.png",
+      "sha256": "1fa4ed65a81e96ca8478942f6ea58f9a238a524b84d7cbb654071d730dc6d653",
+      "size": 12658,
+      "objectId": "sha256:1fa4ed65a81e96ca8478942f6ea58f9a238a524b84d7cbb654071d730dc6d653",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/aplicaciones.png",
+      "sha256": "6c82e02d3c86740c71d7faca74fd33e1c2390198c1dd21966d4949cac0622bc3",
+      "size": 12107,
+      "objectId": "sha256:6c82e02d3c86740c71d7faca74fd33e1c2390198c1dd21966d4949cac0622bc3",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/calendario.png",
+      "sha256": "d84d195861dd24b6d90d403a200d4f05464ff3e4a2f1e804697d13d3b6846046",
+      "size": 12237,
+      "objectId": "sha256:d84d195861dd24b6d90d403a200d4f05464ff3e4a2f1e804697d13d3b6846046",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/contactos.png",
+      "sha256": "4ad7878c3b43b1a070fc20f1f323e8119a975cf91df2037e98083232a1cb9364",
+      "size": 10980,
+      "objectId": "sha256:4ad7878c3b43b1a070fc20f1f323e8119a975cf91df2037e98083232a1cb9364",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/crm.png",
+      "sha256": "0b254ab920119cede458da899e40f910611c59f5aab30c2d1906ba059c8b008f",
+      "size": 10993,
+      "objectId": "sha256:0b254ab920119cede458da899e40f910611c59f5aab30c2d1906ba059c8b008f",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/documentos.png",
+      "sha256": "a042e56a27d1e1c831b8eedf96aa9dfb6171632e60f947bef8e94ea017f656b5",
+      "size": 11095,
+      "objectId": "sha256:a042e56a27d1e1c831b8eedf96aa9dfb6171632e60f947bef8e94ea017f656b5",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/empleados.png",
+      "sha256": "162176b23f911bea79176449543b0cbb1e00efaa5d81edebfb07bdacdf56486d",
+      "size": 12135,
+      "objectId": "sha256:162176b23f911bea79176449543b0cbb1e00efaa5d81edebfb07bdacdf56486d",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/encuestas.png",
+      "sha256": "263b85138af5ed9f7d8531f0ef115b32ffefaa45db42fe9c4f26a284216ba1a6",
+      "size": 12921,
+      "objectId": "sha256:263b85138af5ed9f7d8531f0ef115b32ffefaa45db42fe9c4f26a284216ba1a6",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/firma.png",
+      "sha256": "abc51446ad4c7fa2c41c7d3517c095e9a004d00574c62e115d40b2348e116764",
+      "size": 11295,
+      "objectId": "sha256:abc51446ad4c7fa2c41c7d3517c095e9a004d00574c62e115d40b2348e116764",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/ind-cobranza.png",
+      "sha256": "f8e972c26823400d0b1d06da44928d361c775fb9f3d218aa21c66dc14b877c75",
+      "size": 6100,
+      "objectId": "sha256:f8e972c26823400d0b1d06da44928d361c775fb9f3d218aa21c66dc14b877c75",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/ind-obras.png",
+      "sha256": "f64b23dc134652569ea66ea68f44255e21f7582c178c81cb78748b0b16544574",
+      "size": 5132,
+      "objectId": "sha256:f64b23dc134652569ea66ea68f44255e21f7582c178c81cb78748b0b16544574",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/ind-ventas.png",
+      "sha256": "ee3d0927bda49b5beeee313c333556f9d1601cb0e4f86ef5eab1d66713a26f50",
+      "size": 5697,
+      "objectId": "sha256:ee3d0927bda49b5beeee313c333556f9d1601cb0e4f86ef5eab1d66713a26f50",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/inventario.png",
+      "sha256": "fe24a85b55fff8ac92e0e99c1c71924e4bfef0b32c2a5aabb2f0e655200f23b8",
+      "size": 12413,
+      "objectId": "sha256:fe24a85b55fff8ac92e0e99c1c71924e4bfef0b32c2a5aabb2f0e655200f23b8",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/planeacion.png",
+      "sha256": "57233d52cf58d1d799ba7f27354615d9f7e2629b1d363e9341a9a6a528d0c520",
+      "size": 12519,
+      "objectId": "sha256:57233d52cf58d1d799ba7f27354615d9f7e2629b1d363e9341a9a6a528d0c520",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/proyectos.png",
+      "sha256": "970a67e8a9bf32559369ef990b0f1e9353cd044bb347e9087ec311d978c1bcb8",
+      "size": 9935,
+      "objectId": "sha256:970a67e8a9bf32559369ef990b0f1e9353cd044bb347e9087ec311d978c1bcb8",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/reportes.png",
+      "sha256": "1eef473f056ecb944cbeb14b4116927f6c59dde0e6da76fc2db9cccd68c214c6",
+      "size": 12264,
+      "objectId": "sha256:1eef473f056ecb944cbeb14b4116927f6c59dde0e6da76fc2db9cccd68c214c6",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/tableros.png",
+      "sha256": "7abee1622fd79f25a37c045ba5f62afac13c95ac4269533d0b3bcae1347162f0",
+      "size": 12232,
+      "objectId": "sha256:7abee1622fd79f25a37c045ba5f62afac13c95ac4269533d0b3bcae1347162f0",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-claro/ventas.png",
+      "sha256": "b8a414e0c20595a74d184a967f9ab5d24740ecfe6fd27807b33ba028c331032e",
+      "size": 11553,
+      "objectId": "sha256:b8a414e0c20595a74d184a967f9ab5d24740ecfe6fd27807b33ba028c331032e",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/act-calendario.png",
+      "sha256": "a4a912b8e581879ebc2727714ffebe0fc56af4278c8be0af8fb5af2f30791028",
+      "size": 6216,
+      "objectId": "sha256:a4a912b8e581879ebc2727714ffebe0fc56af4278c8be0af8fb5af2f30791028",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/act-documento.png",
+      "sha256": "7fd15af9dccc456ca7cb962aaab8c06b6b569a91db0f7fef6324dafc6bfc6c10",
+      "size": 6346,
+      "objectId": "sha256:7fd15af9dccc456ca7cb962aaab8c06b6b569a91db0f7fef6324dafc6bfc6c10",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/act-tarea.png",
+      "sha256": "1edd02e0f768df4ceaccd70264b0b4cef1ad46fa3d9105541cca6e45b55f2ba3",
+      "size": 6184,
+      "objectId": "sha256:1edd02e0f768df4ceaccd70264b0b4cef1ad46fa3d9105541cca6e45b55f2ba3",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/ajustes.png",
+      "sha256": "fc42f287fe3d136ef995de3fcd8f368bb4160a349667369a012016be20d74a0e",
+      "size": 13125,
+      "objectId": "sha256:fc42f287fe3d136ef995de3fcd8f368bb4160a349667369a012016be20d74a0e",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/aplicaciones.png",
+      "sha256": "6b2d5c023b4ab27e06e9a5317db1cefb97c46e57493f21886485e952cac8b055",
+      "size": 12984,
+      "objectId": "sha256:6b2d5c023b4ab27e06e9a5317db1cefb97c46e57493f21886485e952cac8b055",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/calendario.png",
+      "sha256": "b08f7fdab7706e58da135e557b0f252bb850b4850bd546d1dc697cecb6b91855",
+      "size": 13361,
+      "objectId": "sha256:b08f7fdab7706e58da135e557b0f252bb850b4850bd546d1dc697cecb6b91855",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/contactos.png",
+      "sha256": "394e0c10e9a51a049759d57d7e8e05c2bd60e6686fc233fbf9bbee182bb174f3",
+      "size": 11683,
+      "objectId": "sha256:394e0c10e9a51a049759d57d7e8e05c2bd60e6686fc233fbf9bbee182bb174f3",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/crm.png",
+      "sha256": "70bc2fe59974a28ceb95301b44348821a6125348120818ba7307de3723fbdf6a",
+      "size": 11179,
+      "objectId": "sha256:70bc2fe59974a28ceb95301b44348821a6125348120818ba7307de3723fbdf6a",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/documentos.png",
+      "sha256": "a0ec8cbf16f5f2330085d867091b4b89fa02a1ee460c83d5ec3a9f5289f6ba61",
+      "size": 11451,
+      "objectId": "sha256:a0ec8cbf16f5f2330085d867091b4b89fa02a1ee460c83d5ec3a9f5289f6ba61",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/empleados.png",
+      "sha256": "341e974a6ab2346b469668a4c90b8a1a0669581bb4e4ce8615635d6e385fbe84",
+      "size": 13496,
+      "objectId": "sha256:341e974a6ab2346b469668a4c90b8a1a0669581bb4e4ce8615635d6e385fbe84",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/encuestas.png",
+      "sha256": "c448b221565579182d8530606209748bda28af1c0ae4a03a1258b7895d211693",
+      "size": 12689,
+      "objectId": "sha256:c448b221565579182d8530606209748bda28af1c0ae4a03a1258b7895d211693",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/firma.png",
+      "sha256": "546673df07521b01d402d8aad090258fc1575cb5fe37755a9422e85fd6d044f4",
+      "size": 12803,
+      "objectId": "sha256:546673df07521b01d402d8aad090258fc1575cb5fe37755a9422e85fd6d044f4",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/ind-cobranza.png",
+      "sha256": "1990c1a86cf1051f4f35a209036e345ecbdc7d0e231b0f1558b3e99c667277bf",
+      "size": 1238,
+      "objectId": "sha256:1990c1a86cf1051f4f35a209036e345ecbdc7d0e231b0f1558b3e99c667277bf",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/ind-obras.png",
+      "sha256": "71d6fd4299f37dca5b3a27fea92ad21a1787f9fd11ef70d770954364127c66ff",
+      "size": 1071,
+      "objectId": "sha256:71d6fd4299f37dca5b3a27fea92ad21a1787f9fd11ef70d770954364127c66ff",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/ind-ventas.png",
+      "sha256": "df4448389a48ee8151dc5b027b1206eac5973a807a7374114a345ee12a8a72eb",
+      "size": 904,
+      "objectId": "sha256:df4448389a48ee8151dc5b027b1206eac5973a807a7374114a345ee12a8a72eb",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/inventario.png",
+      "sha256": "5f8de58e4b440d5a0c0745ced58d0d364c5b96f6b3b55d156ecfac928f304a9b",
+      "size": 12994,
+      "objectId": "sha256:5f8de58e4b440d5a0c0745ced58d0d364c5b96f6b3b55d156ecfac928f304a9b",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/planeacion.png",
+      "sha256": "9c0e3402b33ff40d1e318e6b9be568db42f689404e10ee4df4e382025c90cce8",
+      "size": 12867,
+      "objectId": "sha256:9c0e3402b33ff40d1e318e6b9be568db42f689404e10ee4df4e382025c90cce8",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/proyectos.png",
+      "sha256": "1ca8c31e63bd4d2fde30e51348d8911415d6334aa743abbb5c6d1b1dcbdd025b",
+      "size": 10519,
+      "objectId": "sha256:1ca8c31e63bd4d2fde30e51348d8911415d6334aa743abbb5c6d1b1dcbdd025b",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/reportes.png",
+      "sha256": "0f28c50138e06c542c0f1b340f41167ed297b5f230e9a462c915f95c879606e5",
+      "size": 13411,
+      "objectId": "sha256:0f28c50138e06c542c0f1b340f41167ed297b5f230e9a462c915f95c879606e5",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/tableros.png",
+      "sha256": "e2be41991438bf61b5dc224f9f6df009e48364178fabfeb2dc8fa2ca819656a5",
+      "size": 13654,
+      "objectId": "sha256:e2be41991438bf61b5dc224f9f6df009e48364178fabfeb2dc8fa2ca819656a5",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/iconos/trazzo-oscuro/ventas.png",
+      "sha256": "16de23fcf2d34f2516b077b891946592152b260f23556a50986619ad86568bf6",
+      "size": 12783,
+      "objectId": "sha256:16de23fcf2d34f2516b077b891946592152b260f23556a50986619ad86568bf6",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/login/alameda-claro.webp",
+      "sha256": "bb369d27252c8c918152b85a0ed21d8ec1615211057455b9e63e6cf6ee814308",
+      "size": 212502,
+      "objectId": "sha256:bb369d27252c8c918152b85a0ed21d8ec1615211057455b9e63e6cf6ee814308",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/login/alameda-oscuro.webp",
+      "sha256": "0d2fffaaa61f43b06c1aafa0985219360ef0906cafba9a6c1d06ef62dd8be505",
+      "size": 186378,
+      "objectId": "sha256:0d2fffaaa61f43b06c1aafa0985219360ef0906cafba9a6c1d06ef62dd8be505",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/login/trazzo-claro.webp",
+      "sha256": "dcfb5f815c10ba1f27268cb5ac16c299629649043f90301464df164808317a04",
+      "size": 74068,
+      "objectId": "sha256:dcfb5f815c10ba1f27268cb5ac16c299629649043f90301464df164808317a04",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/login/trazzo-oscuro.webp",
+      "sha256": "8160194dd45389ce53764776f32a0b90bba0c5ca47c6737535b6d591b90ee8e2",
+      "size": 95632,
+      "objectId": "sha256:8160194dd45389ce53764776f32a0b90bba0c5ca47c6737535b6d591b90ee8e2",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/marca/alameda-emblema.png",
+      "sha256": "1749aba2128cdd7e5d35683f5cbfb7242fdb1ddcba93388dd9c8577ef1d63298",
+      "size": 43617,
+      "objectId": "sha256:1749aba2128cdd7e5d35683f5cbfb7242fdb1ddcba93388dd9c8577ef1d63298",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/marca/alameda-rotulo.png",
+      "sha256": "5b88833e51b578e4ce76b234f4066f784f8b35f8751a0a3b5068d19dd6ff6772",
+      "size": 3085,
+      "objectId": "sha256:5b88833e51b578e4ce76b234f4066f784f8b35f8751a0a3b5068d19dd6ff6772",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/marca/trazzo-icono-app-blanco.png",
+      "sha256": "f5828ab1914b6450b5a47e3fb2f6d2f307991ee58d6eb27b08efa7445525d54d",
+      "size": 37214,
+      "objectId": "sha256:f5828ab1914b6450b5a47e3fb2f6d2f307991ee58d6eb27b08efa7445525d54d",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/marca/trazzo-icono-app-claro.png",
+      "sha256": "78ba8ba21af3639002f4f70c5d364d673d2c0bd30a159b1c2ba5d8a25318d3dd",
+      "size": 36812,
+      "objectId": "sha256:78ba8ba21af3639002f4f70c5d364d673d2c0bd30a159b1c2ba5d8a25318d3dd",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/marca/trazzo-icono-app.png",
+      "sha256": "377040745ea54c9bc290fd038127a20a54824a74cd4916cff1f7abb314c20377",
+      "size": 74644,
+      "objectId": "sha256:377040745ea54c9bc290fd038127a20a54824a74cd4916cff1f7abb314c20377",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/marca/trazzo-logo-blanco-para-violeta.png",
+      "sha256": "d94e340ac319a240b293e429df94e15064246ab33860b02df11069d009cc720d",
+      "size": 51547,
+      "objectId": "sha256:d94e340ac319a240b293e429df94e15064246ab33860b02df11069d009cc720d",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/marca/trazzo-logo-para-claro.png",
+      "sha256": "25e77f07fe84fcbb75c15842db7b4b232709399fd97f881498a21a1b7c8600e0",
+      "size": 62836,
+      "objectId": "sha256:25e77f07fe84fcbb75c15842db7b4b232709399fd97f881498a21a1b7c8600e0",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/marca/trazzo-logo-para-oscuro.png",
+      "sha256": "9c614c5d8cde505e99642a1700fc2379f0475f0ee4098b1743768b9ec087e3ad",
+      "size": 61763,
+      "objectId": "sha256:9c614c5d8cde505e99642a1700fc2379f0475f0ee4098b1743768b9ec087e3ad",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/marca/trazzo-palabra-para-oscuro.png",
+      "sha256": "c0b2a245fcf2b6a4ebed74c4ff5efc7ef348a1a25a7f1edf3ad650dc854e0c5d",
+      "size": 82200,
+      "objectId": "sha256:c0b2a245fcf2b6a4ebed74c4ff5efc7ef348a1a25a7f1edf3ad650dc854e0c5d",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/identidad/marca/trazzo-simbolo.png",
+      "sha256": "19ec8bd419211674cf231a31c9390d16837d4f83db3b8c45b040df29f7af6f12",
+      "size": 89615,
+      "objectId": "sha256:19ec8bd419211674cf231a31c9390d16837d4f83db3b8c45b040df29f7af6f12",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/legal/ACUERDO-DE-LICENCIA.txt",
+      "sha256": "9671fd145100b32e134fca6aaabea7a22761e2a3b1918ce4b546fcb2ace00537",
+      "size": 8338,
+      "objectId": "sha256:9671fd145100b32e134fca6aaabea7a22761e2a3b1918ce4b546fcb2ace00537",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/legal/POLITICA-DE-PRIVACIDAD.txt",
+      "sha256": "fada751f5c57cd48d58e95f2463bef1c8d7ae92f8c7a6a77f7ed08fca6c9c14f",
+      "size": 12270,
+      "objectId": "sha256:fada751f5c57cd48d58e95f2463bef1c8d7ae92f8c7a6a77f7ed08fca6c9c14f",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/legal/TERMINOS-Y-CONDICIONES.txt",
+      "sha256": "166e263c23090235757eaa72cc1e8b45de2c41427d188d32641f06fef2bfb218",
+      "size": 11444,
+      "objectId": "sha256:166e263c23090235757eaa72cc1e8b45de2c41427d188d32641f06fef2bfb218",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/assets/legal/legal_manifest.json",
+      "sha256": "c8371bcfdf18c3c542c6a40ece96cf4fd78cc4ccae3f44bf277dda3ea36f55fe",
+      "size": 558,
+      "objectId": "sha256:c8371bcfdf18c3c542c6a40ece96cf4fd78cc4ccae3f44bf277dda3ea36f55fe",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/fonts/MaterialIcons-Regular.otf",
+      "sha256": "d9865b671a09d683d13a863089d8825e0f61a37696ce5d7d448bc8023aa62453",
+      "size": 1645184,
+      "objectId": "sha256:d9865b671a09d683d13a863089d8825e0f61a37696ce5d7d448bc8023aa62453",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf",
+      "sha256": "67c44fe9183b002e79dde7f6977e2988661c9a3e4a3c5fce968787efdbed823c",
+      "size": 257628,
+      "objectId": "sha256:67c44fe9183b002e79dde7f6977e2988661c9a3e4a3c5fce968787efdbed823c",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/shaders/ink_sparkle.frag",
+      "sha256": "0ddb6dd1d060d863b453c26aaae72d539d5dbc5443e086ef618280da73d71380",
+      "size": 21328,
+      "objectId": "sha256:0ddb6dd1d060d863b453c26aaae72d539d5dbc5443e086ef618280da73d71380",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/flutter_assets/shaders/stretch_effect.frag",
+      "sha256": "0ed3145e5e380355d92f9ccc66dba1c00d1b5001b1efa0dbeb6398dd56910486",
+      "size": 17368,
+      "objectId": "sha256:0ed3145e5e380355d92f9ccc66dba1c00d1b5001b1efa0dbeb6398dd56910486",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "asset"
+    },
+    {
+      "path": "data/icudtl.dat",
+      "sha256": "998367809a821d595928089c197b3f7959f0420f81f79d4d0daee53378492ed5",
+      "size": 862304,
+      "objectId": "sha256:998367809a821d595928089c197b3f7959f0420f81f79d4d0daee53378492ed5",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "runtimeMetadata"
+    },
+    {
+      "path": "file_selector_windows_plugin.dll",
+      "sha256": "fdacd6770609a327490e32c50daf8f9c53a64dd0a3ac3ce1ec757585d34d7764",
+      "size": 110080,
+      "objectId": "sha256:fdacd6770609a327490e32c50daf8f9c53a64dd0a3ac3ce1ec757585d34d7764",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "library"
+    },
+    {
+      "path": "flutter_windows.dll",
+      "sha256": "92e7aa320afe026e90780e4049dc6f6a480696400a269c179b1cca0ef751d175",
+      "size": 20803584,
+      "objectId": "sha256:92e7aa320afe026e90780e4049dc6f6a480696400a269c179b1cca0ef751d175",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "library"
+    },
+    {
+      "path": "url_launcher_windows_plugin.dll",
+      "sha256": "f009e3db69a84319f6a8d9273f537cfb3c29a4932b115f7aa0c186e525d5f195",
+      "size": 98304,
+      "objectId": "sha256:f009e3db69a84319f6a8d9273f537cfb3c29a4932b115f7aa0c186e525d5f195",
+      "operation": "materialize",
+      "reusable": true,
+      "role": "library"
+    }
+  ],
+  "deletedFiles": [
+    "data/flutter_assets/assets/branding/trazzo-login-background.png",
+    "data/flutter_assets/assets/branding/trazzo-logo-horizontal-dark.png",
+    "data/flutter_assets/assets/branding/trazzo-symbol-on-dark.png",
+    "data/flutter_assets/assets/branding/trazzo-symbol.png"
+  ],
+  "protectedPaths": [],
+  "prerequisites": [],
+  "fallbackInstaller": {
+    "version": "0.1.48",
+    "url": "https://trazzo-updates.lentinitechnologies.com/installers/fa3b2b72bdca335ef00b3feb7e6041f3c6487e2fea9dce060d8311ba36fa9c70/Trazzo_ERP_Inmobiliario_0.1.48_Setup.exe",
+    "sha256": "fa3b2b72bdca335ef00b3feb7e6041f3c6487e2fea9dce060d8311ba36fa9c70",
+    "size": 18581052
+  },
+  "keyId": "release-2026-a",
+  "signatureAlgorithm": "Ed25519",
+  "signature": "p3COAIEPv1XUhlMYEyr/lo6zwVJEINNy/U9QkIyEPQIfgSYUPnxecVaLp6WMYu26xLrH1Wc/2U8QJUymZa1DDA=="
+}
