@@ -1,11 +1,11 @@
 {
-  "version": "0.1.45",
+  "version": "0.1.46",
   "mandatory": false,
-  "url": "https://trazzo-updates.lentinitechnologies.com/installers/e824ef14d309955bbca5b9e1796b78b56f60493746e085a1662ad467a4ee012b/Trazzo_ERP_Inmobiliario_0.1.45_Setup.exe",
-  "sha256": "e824ef14d309955bbca5b9e1796b78b56f60493746e085a1662ad467a4ee012b",
-  "notes": "Trazzo 0.1.45 - resolucion de contratos con devoluciones y liberacion de unidad, motor de comisiones configurable por empresa (sin politicas activas), listados paginados y selectores en el servidor, CRM operativo con tablero y tareas, y reportes que respetan los permisos financieros. Requiere el backend 0.1.45 (pilot)",
+  "url": "https://trazzo-updates.lentinitechnologies.com/installers/528e6e2a23f35b86fdbacd7a911fc8a3a0984f2552989cd06e2c5faabe7df949/Trazzo_ERP_Inmobiliario_0.1.46_Setup.exe",
+  "sha256": "528e6e2a23f35b86fdbacd7a911fc8a3a0984f2552989cd06e2c5faabe7df949",
+  "notes": "Trazzo 0.1.46 - asesor comercial y autorizacion documental por entidad, obras con moneda y recursos, acceso corporativo con cobro por proyeccion minima, recibo PDF en Pagos, hora de Caja en America/Lima, notificaciones y politica por sucursal. Requiere el backend 0.1.46 (pilot); se actualizan juntos.",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/01419242-9434-493e-8e35-6b05972775a9/patch-manifest-v2.json",
-  "patchManifestSha256": "d72c2fbfbf9ce301a33706af7bf921471685cb7fb2947263abc21615b01383e9",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/a08a4519-b147-4419-a460-e385e6ab7570/patch-manifest-v2.json",
+  "patchManifestSha256": "814f72c7edb08b12258b7b8d74d3933e019d0fafeac2d19e2eea8c887eba3c5d",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }

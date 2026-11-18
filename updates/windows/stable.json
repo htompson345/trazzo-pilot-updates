@@ -1,11 +1,11 @@
 {
-  "version": "0.1.46",
+  "version": "0.1.48",
   "mandatory": false,
-  "url": "https://trazzo-updates.lentinitechnologies.com/installers/528e6e2a23f35b86fdbacd7a911fc8a3a0984f2552989cd06e2c5faabe7df949/Trazzo_ERP_Inmobiliario_0.1.46_Setup.exe",
-  "sha256": "528e6e2a23f35b86fdbacd7a911fc8a3a0984f2552989cd06e2c5faabe7df949",
-  "notes": "Trazzo 0.1.46 - asesor comercial y autorizacion documental por entidad, obras con moneda y recursos, acceso corporativo con cobro por proyeccion minima, recibo PDF en Pagos, hora de Caja en America/Lima, notificaciones y politica por sucursal. Requiere el backend 0.1.46 (pilot); se actualizan juntos.",
+  "url": "https://trazzo-updates.lentinitechnologies.com/installers/fa3b2b72bdca335ef00b3feb7e6041f3c6487e2fea9dce060d8311ba36fa9c70/Trazzo_ERP_Inmobiliario_0.1.48_Setup.exe",
+  "sha256": "fa3b2b72bdca335ef00b3feb7e6041f3c6487e2fea9dce060d8311ba36fa9c70",
+  "notes": "Trazzo 0.1.48 - Contabilidad, Tesoreria, Cuentas por pagar y Conciliacion bancaria; centro de copias de seguridad; mejoras de interfaz. Prueba controlada.",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/a08a4519-b147-4419-a460-e385e6ab7570/patch-manifest-v2.json",
-  "patchManifestSha256": "814f72c7edb08b12258b7b8d74d3933e019d0fafeac2d19e2eea8c887eba3c5d",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/52b6dc99-622f-4857-b796-ff5737fc534e/patch-manifest-v2.json",
+  "patchManifestSha256": "f193f04b0cb958cbaa1d562bf222d69907ad449f330d5f209c853efefe6334f6",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }
