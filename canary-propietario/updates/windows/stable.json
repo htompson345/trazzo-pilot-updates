@@ -1,11 +1,11 @@
 {
-  "version": "0.1.47",
+  "version": "0.1.48",
   "mandatory": false,
-  "url": "https://trazzo-updates.lentinitechnologies.com/installers/25d89bdcbed5954fc9d4b8d82aacc1e47f1206a8413e274e145a9e31a73f5c4f/Trazzo_ERP_Inmobiliario_0.1.47_Setup.exe",
-  "sha256": "25d89bdcbed5954fc9d4b8d82aacc1e47f1206a8413e274e145a9e31a73f5c4f",
-  "notes": "Trazzo 0.1.47 - cliente compatible con el backend 0.1.47 (pilot): moneda en separaciones, MFA empresarial desactivado por defecto, mejoras de interfaz. Prueba controlada.",
+  "url": "https://trazzo-updates.lentinitechnologies.com/installers/fa3b2b72bdca335ef00b3feb7e6041f3c6487e2fea9dce060d8311ba36fa9c70/Trazzo_ERP_Inmobiliario_0.1.48_Setup.exe",
+  "sha256": "fa3b2b72bdca335ef00b3feb7e6041f3c6487e2fea9dce060d8311ba36fa9c70",
+  "notes": "Trazzo 0.1.48 - Contabilidad, Tesoreria, Cuentas por pagar y Conciliacion bancaria; centro de copias de seguridad; mejoras de interfaz. Prueba controlada.",
   "minSupportedVersion": "0.1.9",
-  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/releases/611146a5-1a70-4277-88ee-db82446f8066/patch-manifest-v2.json",
-  "patchManifestSha256": "b59f47ddd7bd0d8d33a19e9e18ad215fb41d82896e0031cc2607640890868785",
+  "patchManifestUrl": "https://trazzo-updates.lentinitechnologies.com/canary-propietario/releases/52b6dc99-622f-4857-b796-ff5737fc534e/patch-manifest-v2.json",
+  "patchManifestSha256": "1b3fe69b4777227d7bcc68dcd7f205e084e075a4b76616378117a79e93806a5b",
   "patchObjectBaseUrl": "https://trazzo-updates.lentinitechnologies.com/objects/sha256/"
 }
